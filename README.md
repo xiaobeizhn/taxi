@@ -36,5 +36,7 @@
 
 2.用git-bash在本地上传日志到GitHub，现在可以访问 [我的GitHub](https://github.com/xiaobeizhn/taxi) 查看日志
 
+3.由于DNS污染(?)不能调用仓库里的图片，so把图片放到CSDN上面然后引用他的URL
+
 ![image-20230809001](https://img-blog.csdnimg.cn/8708e55a7bd242989a7c7781ce3e499c.jpeg)
 
