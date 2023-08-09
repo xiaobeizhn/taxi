@@ -34,7 +34,7 @@
 
 1.下载并安装git
 
-2.用git-bash在本地上传日志到GitHub，现在可以通过访问https://github.com/xiaobeizhn/taxi查看日志
+2.用git-bash在本地上传日志到GitHub，现在可以访问 https://github.com/xiaobeizhn/taxi 查看日志
 
 ![image-20230809001](img/image-20230809001.png)
 
