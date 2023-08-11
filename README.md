@@ -50,5 +50,5 @@
 
 3.下载并安装Unity，完成新手教程
 
-![旋转的方块](https://img-blog.csdnimg.cn/0220dad0ed9b48beb88f439b5a07350a.png)
+![旋转的方块](https://img-blog.csdnimg.cn/d30c4e27a2f94417993f0a12dfa6d3b5.gif)
 
