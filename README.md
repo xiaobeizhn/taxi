@@ -41,3 +41,14 @@
 ![image-20230809001](https://img-blog.csdnimg.cn/8708e55a7bd242989a7c7781ce3e499c.jpeg)
 
 4.将ACM模板用git-bash上传到GitHub，现在可以访问 [template](https://github.com/xiaobeizhn/template) 仓库查看
+
+### 2023.8.11
+
+1.了解WPF（看完就没有动力学了，感觉这东西好古老）
+
+2.了解Unity，发现.NET在web开发领域市场份额较小，而Unity的市场份额铰大
+
+3.下载并安装Unity，完成新手教程
+
+![旋转的方块](https://img-blog.csdnimg.cn/0220dad0ed9b48beb88f439b5a07350a.png)
+
