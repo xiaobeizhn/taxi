@@ -75,4 +75,80 @@ int main(){
 }
 ```
 
-​	memset函数是对n个字节进行赋值。而char类型占1个字节。但是int类型占4个字节，所以memset里赋值0x3f最后dp会等于0x3f3f3f3f。同理如果对long long数组进行memset会等于0x3f3f3f3f3f3f3f3f(8个3f)。同时最后不可以根据Ans有无变化来判断能否到达终点，因为int的定义的无限大比long long小，即使无法到达终点还是会更新Ans
+​	memset函数是对n个字节进行赋值。而char类型占1个字节。但是int类型占4个字节，所以memset里赋值**0x3f**最后dp会等于**0x3f3f3f3f**。同理如果对long long数组进行memset会等于**0x3f3f3f3f3f3f3f3f**(8个3f)。同时最后不可以根据Ans有无变化来判断能否到达终点，因为int的定义的无限大比long long小，即使无法到达终点还是会更新Ans
+
+### T5 糖果促销（数论）
+
+​	第一种方法是二分，复杂度**O(Tlogklogk)**，5秒随便跑
+
+```c++
+#include<bits/stdc++.h>
+#define LL long long
+using namespace std;
+template<typename T>
+const T & Max(const T &a,const T &b){
+    return a>b?a:b;
+}
+template<typename T>
+const T & Min(const T &a,const T &b){
+    return a<b?a:b;
+}
+int K,P;
+int check(int now){
+    int t=now,m=now;
+    while(m/P>0){
+        t+=m/P;
+        m=m/P+m%P;
+    }
+    return t;
+}
+int main(){
+    int T;
+    cin>>T;
+    while(T--){
+        scanf("%d%d",&P,&K);
+        if(K==0){
+            puts("0");
+            continue;
+        }
+        if(P==1){
+            puts("1");
+            continue;
+        }
+        int l=1,r=K,ans;
+        while(l<=r){
+            int mid=l+r>>1;
+            if(check(mid)>=K)ans=mid,r=mid-1;
+            else l=mid+1;
+        }
+        printf("%d\n",ans);
+    }
+    return 0;
+}
+```
+
+​	第二种方法是直接算，这种我是看了别人的才知道的（
+
+```c++
+#include<bits/stdc++.h>
+#define LL long long
+using namespace std;
+int K,P;
+int main(){
+    int T;
+    cin>>T;
+    while(T--){
+        scanf("%d%d",&P,&K);
+        if(K==0){
+            puts("0");
+            continue;
+        }else{
+            K-=(K-1)/P;
+            printf("%d\n",K);
+        }
+    }
+    return 0;
+}
+```
+
+整个过程一共会有**k**个糖果纸，且最后手上一定至少有一个糖果纸，所以可以换到的糖果数量为**(k-1)/p**，所以**k-(k-1)/p**就是需要买的糖果数量。
