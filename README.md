@@ -120,10 +120,20 @@
 
 ### 2023.8.31
 
-1.学习C++线程池的写法	[简单线程池](https://github.com/xiaobeizhn/template/blob/main/ThreadPool.cpp)		*100%
+1.学习C++线程池的写法	[简单线程池](https://github.com/xiaobeizhn/template/blob/main/ThreadPool.cpp)		*100%*
 
 2.《计算机网络教程》（计算机网络概论、物理层）		*16%*
 
 ### 2023.9.1
 
 1.《C#实践入门：快捷学习C#编程和Unity游戏开发》		*41%*
+
+### 2023.9.2
+
+1.了解C#和C++多态性的异同
+
+### 2023.9.3
+
+1.《C#实践入门：快捷学习C#编程和Unity游戏开发》		*46%*
+
+![](D:\temp\q5vtw-0smlb.gif)
