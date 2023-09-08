@@ -116,7 +116,7 @@
 
 3.关于Lambda和内联函数运行效率的一个小知识
 
-![Lambda和内敛函数](https://img-blog.csdnimg.cn/c2ec3d7fb3d2471fa7d80738a20c49bf.gif)
+![Lambda和内联函数](https://img-blog.csdnimg.cn/c2ec3d7fb3d2471fa7d80738a20c49bf.gif)
 
 ### 2023.8.31
 
@@ -138,8 +138,22 @@
 
 ![白盒模型](https://img-blog.csdnimg.cn/09e1c57f09a74c05bc207d8dfd062d5c.gif)
 
-### 2023.9.6
+### 2023.9.5
 
 1.《C#实践入门：快捷学习C#编程和Unity游戏开发》		*49%*
 
 ![悬空动画](https://img-blog.csdnimg.cn/cc9c1f7aa255454da53f42a9487586ae.gif)
+
+### 2023.9.6
+
+1.《C#实践入门：快捷学习C#编程和Unity游戏开发》		*51%*
+
+### 2023.9.7
+
+1.《C#实践入门：快捷学习C#编程和Unity游戏开发》		*55%*
+
+### 2023.9.8
+
+1.参加湖南大学CSP模拟测试二
+
+2.《C#实践入门：快捷学习C#编程和Unity游戏开发》		*60%*
