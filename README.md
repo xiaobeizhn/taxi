@@ -165,3 +165,25 @@
 ### 2023.9.14
 
 1.《C#实践入门：快捷学习C#编程和Unity游戏开发》		*60%*
+
+### 2023.9.26
+
+学习并掌握后缀数组的倍增求法		*60%*
+
+### 2023.9.27
+
+1.学习并掌握后缀数组的倍增求法 [【模板】后缀排序](https://github.com/xiaobeizhn/template/blob/main/Suffix_sort%2BLCP.cpp)		100%
+
+2.学习并掌握LCP算法		*60%*
+
+### 2023.9.28
+
+1.学习并掌握LCP算法		*100%*
+
+2.[P2852 [USACO06DEC] Milk Patterns G](https://www.luogu.com.cn/problem/P2852)		*60%*
+
+### 2023.9.29
+
+1.[P2852 [USACO06DEC] Milk Patterns G](https://www.luogu.com.cn/problem/P2852)		*100%*
+
+2.理解错误，重新学习LCP算法		*100%*
