@@ -1,4 +1,4 @@
-# 大创学习日志
+# 学习日志
 
 ### 2023.8.3
 
@@ -187,3 +187,27 @@
 1.[P2852 [USACO06DEC] Milk Patterns G](https://www.luogu.com.cn/problem/P2852)		*100%*
 
 2.理解错误，重新学习LCP算法		*100%*
+
+### 2023.10.4
+
+1.[P5353 树上后缀排序](https://www.luogu.com.cn/problem/P5353)	*50%*
+
+### 2023.10.5
+
+1.写百度之星初赛第一场的题解		*70%*
+
+2.学习并掌握双哈希		*100*
+
+3.关于C++ STL 中的 *set* 和 *mutiset* 
+
+![set和mutiset](https://img-blog.csdnimg.cn/09ab020930204b92ae8ab9840e87ad67.gif)
+
+### 2023.10.6
+
+1.关于C++ STL 中的 *push_back()* 和 *emplace_back()*
+
+[C++中push_back和emplace_back的区别](https://zhuanlan.zhihu.com/p/213853588)
+
+![push_back和emplace_back()](https://img-blog.csdnimg.cn/703b3d5b9e634083a0dde2a4f6de8680.gif)
+
+2.[P5353 树上后缀排序](https://www.luogu.com.cn/problem/P5353)	*50%*
