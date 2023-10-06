@@ -210,4 +210,4 @@
 
 ![push_back和emplace_back()](https://img-blog.csdnimg.cn/703b3d5b9e634083a0dde2a4f6de8680.gif)
 
-2.[P5353 树上后缀排序](https://www.luogu.com.cn/problem/P5353)	*50%*
+2.[P5353 树上后缀排序](https://www.luogu.com.cn/problem/P5353)	*100%*

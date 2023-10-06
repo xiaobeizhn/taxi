@@ -180,7 +180,7 @@ int main() {
 
 ​	总时间复杂度为：
 $$
-O(nlog(n))
+O(nlogn)
 $$
 
 ```c++
@@ -239,7 +239,6 @@ int main() {
 ​	第二种方法也就是标答的方法，运用二分+贪心。先二分时间**t**，要想在**t**前的总理解力最少，只需要让在**t**时理解力最多的科学家消失，接着判断科学家消失后总理解力是否大于**t**。总时间复杂度为
 $$
 O(nlog(S+m))，S+m为最慢理解时间
-
 $$
 ​	但是由于常数大，logn跑的并没有log(S+m)快（悲
 
@@ -426,7 +425,6 @@ int main() {
             cnt[i] += cnt[i - 1];
         for (int i = n; i > 0; i--)
             SA[cnt[RK[subSA[i]][p - 1]]--] = subSA[i];
-        memset(subSA, 0, sizeof subSA);
         t = 1, RK[SA[1]][p] = 1;
         for (int i = 2; i <= n; i++) {
             if (RK[SA[i]][p - 1] == RK[SA[i - 1]][p - 1] &&
@@ -465,4 +463,78 @@ int main() {
 $$
 O(nlogn)
 $$
-​	
+```c++
+#include <bits/stdc++.h>
+#define N 1000005
+#define LL long long
+const LL P = 1e9 + 7;
+const LL base = 17;
+using namespace std;
+char str[N];
+int n, K;
+struct Big {
+    int length;
+    int num[N];
+    void operator+=(const LL a) {
+        num[0] += a;
+        for (int i = 0; i < length; i++) {
+            num[i + 1] += num[i] / 10;
+            num[i] %= 10;
+        }
+        while (num[length] > 0)
+            length++;
+        return;
+    }
+    void get(int begin) {
+        length = n - K;
+        for (int i = 0; i < length; i++)
+            num[i] = str[begin + length - i - 1] - '0';
+        return;
+    }
+    void Println() const {
+        for (int i = length - 1; i >= 0; i--)
+            printf("%d", num[i]);
+        puts("");
+        return;
+    }
+} Ans;
+int maxsuf = 1;
+LL Hash[N], Base[N];
+LL get_hash(int a, int b) {
+    return (P + Hash[b] - (Hash[a - 1] * Base[b - a + 1] % P)) % P;
+}
+int main() {
+    scanf("%d%d", &n, &K);
+    scanf("%s", str + 1);
+    Base[0] = 1, Hash[0] = 0;
+    for (int i = 1; i <= n; i++) {
+        Hash[i] = (Hash[i - 1] * base % P + str[i] - '0') % P;
+        Base[i] = Base[i - 1] * base % P;
+    }
+    for (int i = 2; i <= K + 1; i++) {
+        int l = 1, r = n - K, mid, ans = 0;
+        while (l <= r) {
+            mid = l + r >> 1;
+            if (get_hash(maxsuf, maxsuf + mid - 1) == get_hash(i, i + mid - 1))
+                l = mid + 1, ans = mid;
+            else
+                r = mid - 1;
+        }
+        if (ans < n - K && str[maxsuf + ans] < str[i + ans])
+            maxsuf = i;
+    }
+    Ans.get(maxsuf);
+    LL res = 0;
+    for (int i = 1; i < maxsuf; i++)
+        res += 1LL * (str[i] - '0');
+    for (int i = maxsuf + n - K; i <= n; i++)
+        res += 1LL * (str[i] - '0');
+    Ans += res;
+    Ans.Println();
+    return 0;
+}
+```
+
+
+
+
