@@ -211,3 +211,5 @@
 ![push_back和emplace_back()](https://img-blog.csdnimg.cn/703b3d5b9e634083a0dde2a4f6de8680.gif)
 
 2.[P5353 树上后缀排序](https://www.luogu.com.cn/problem/P5353)	*100%*
+
+3.git 删除文件 `git rm file`    git 从跟踪的文件列表中删除文件 `git rm --cached rm`
