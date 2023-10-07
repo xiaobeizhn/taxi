@@ -224,3 +224,4 @@
 1. `git fetch` 是将远程主机的最新内容拉到本地，用户在检查了以后决定是否合并到工作本机分支中。
 
    `git pull` 是将远程主机的最新内容拉下来后直接合并，即：`git pull = git fetch + git merge`，这样可能会产生冲突，需要手动解决。
+2. [机器学习之基础知识（全）](https://blog.csdn.net/m0_58086930/article/details/126097452?spm=1000.2115.3001.6382&utm_medium=distribute.pc_feed_v2.none-task-blog-search_records_recommend-6-126097452-null-null.pc_personrec&depth_1-utm_source=distribute.pc_feed_v2.none-task-blog-search_records_recommend-6-126097452-null-null.pc_personrec)
