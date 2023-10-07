@@ -214,8 +214,8 @@
 
 2. [P5353 树上后缀排序](https://www.luogu.com.cn/problem/P5353)	*100%*
 
-3. 删除文件 `git rm file`
-   从跟踪的文件列表中删除文件 `git rm --cached rm`
+3. `git rm file` 删除文件 
+   `git rm --cached file` 从跟踪的文件列表中删除文件 
 
 [git上如何删除文件（步骤浅析）](https://www.php.cn/faq/509814.html)
 
@@ -224,4 +224,5 @@
 1. `git fetch` 是将远程主机的最新内容拉到本地，用户在检查了以后决定是否合并到工作本机分支中。
 
    `git pull` 是将远程主机的最新内容拉下来后直接合并，即：`git pull = git fetch + git merge`，这样可能会产生冲突，需要手动解决。
+   
 2. [机器学习之基础知识（全）](https://blog.csdn.net/m0_58086930/article/details/126097452?spm=1000.2115.3001.6382&utm_medium=distribute.pc_feed_v2.none-task-blog-search_records_recommend-6-126097452-null-null.pc_personrec&depth_1-utm_source=distribute.pc_feed_v2.none-task-blog-search_records_recommend-6-126097452-null-null.pc_personrec)
