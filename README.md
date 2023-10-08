@@ -208,7 +208,7 @@
 
 1. 关于C++ STL 中的 *push_back()* 和 *emplace_back()*
 
-[C++中push_back和emplace_back的区别](https://zhuanlan.zhihu.com/p/213853588)
+​	[C++中push_back和emplace_back的区别](https://zhuanlan.zhihu.com/p/213853588)
 
 ![push_back和emplace_back()](https://img-blog.csdnimg.cn/703b3d5b9e634083a0dde2a4f6de8680.gif)
 
@@ -226,3 +226,9 @@
    `git pull` 是将远程主机的最新内容拉下来后直接合并，即：`git pull = git fetch + git merge`，这样可能会产生冲突，需要手动解决。
    
 2. [机器学习之基础知识（全）](https://blog.csdn.net/m0_58086930/article/details/126097452?spm=1000.2115.3001.6382&utm_medium=distribute.pc_feed_v2.none-task-blog-search_records_recommend-6-126097452-null-null.pc_personrec&depth_1-utm_source=distribute.pc_feed_v2.none-task-blog-search_records_recommend-6-126097452-null-null.pc_personrec)
+
+### 2023.10.8
+
+1. 架梯子
+2. 安装 **CUDA**
+3. 在本地部署 **[ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B)**
