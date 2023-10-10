@@ -168,7 +168,7 @@
 
 ### 2023.9.26
 
-学习并掌握后缀数组的倍增求法		*60%*
+1. 学习并掌握后缀数组的倍增求法		*60%*
 
 ### 2023.9.27
 
@@ -190,7 +190,7 @@
 
 ### 2023.10.4
 
-1.[P5353 树上后缀排序](https://www.luogu.com.cn/problem/P5353)	*50%*
+1. [P5353 树上后缀排序](https://www.luogu.com.cn/problem/P5353)	*50%*
 
 ### 2023.10.5
 
@@ -200,7 +200,7 @@
 
 3. 关于C++ STL 中的 *set* 和 *mutiset* 
 
-[C++——set 和 multiset](https://blog.csdn.net/qq_43448856/article/details/122903722)
+​	[C++——set 和 multiset](https://blog.csdn.net/qq_43448856/article/details/122903722)
 
 ![set和mutiset](https://img-blog.csdnimg.cn/09ab020930204b92ae8ab9840e87ad67.gif)
 
@@ -232,3 +232,11 @@
 1. 架梯子
 2. 安装 **CUDA**
 3. 在本地部署 **[ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B)**
+
+### 2023.10.10
+
+float型数据变量不能直接和数字比较相等。
+两个同为float型的数据变量可以比较相等。
+float型数据不能和double型数据比较相等。
+double型数据可以直接和数字比较相等。
+两个同为double型的数据变量可以比较相等。
